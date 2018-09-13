@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: #a222;
+  font-size:30px;
+  font-family: 'EB Garamond', serif;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+  z-index:100;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+.row{
+   
+    padding-bottom: 5px;
+}
+    
+.container-fluid{
+padding-bottom:10px;
+
+}
+.carousel-inner{
+  border-radius: 10px; 
+  border: 1px solid #543;
+  background-color: blue;
+}
+@media only screen and (max-width: 600px) {
+    .card-text{
+        font-size:28px;color:blue;
+    }
+}
+
+.jumbotron{
+  margin: auto;
+}
+
+#order {
+  border:5px solid green;
+  padding: 10px;
+}
+
+footer{
+  
+  color:purple;
+  text-align:center;
+}
+
